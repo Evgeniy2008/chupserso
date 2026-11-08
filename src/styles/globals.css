@@ -609,34 +609,52 @@ main {
     color: var(--color-fg);
     transform: translate3d(0.75rem, 0, 0);
   }
-  .exp-row .exp-sweep {
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 1s var(--ease-out-expo);
-  }
   .exp-row:hover .exp-sweep {
     transform: none;
   }
 }
+/* Hidden by default on every device — only a mouse hover draws the line. */
+.exp-row .exp-sweep {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1s var(--ease-out-expo);
+}
 
-/* Contact rows */
+/* Contact rows. The white fill is a hover effect: it must start hidden on every
+   device, otherwise touch screens show solid white blocks over white text. */
+.contact-row .contact-fill {
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.7s var(--ease-out-expo);
+}
+.contact-row .contact-arrow {
+  transition:
+    transform 0.7s var(--ease-out-expo),
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
 @media (hover: hover) and (pointer: fine) {
-  .contact-row .contact-arrow {
-    transition: transform 0.7s var(--ease-out-expo);
-  }
   .contact-row:hover .contact-arrow {
     transform: translate3d(0.35rem, -0.35rem, 0);
-  }
-  .contact-row .contact-fill {
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 0.7s var(--ease-out-expo);
   }
   .contact-row:hover .contact-fill {
     transform: none;
   }
   .contact-row:hover .contact-label {
     color: var(--color-ink);
+  }
+}
+/* Touch feedback instead of hover */
+@media (hover: none) {
+  .contact-row:active {
+    background-color: rgb(255 255 255 / 0.06);
+  }
+  .contact-row:active .contact-arrow {
+    background-color: var(--color-fg);
+    color: var(--color-ink);
+  }
+  .profile-card:active {
+    background-color: rgb(255 255 255 / 0.06);
   }
 }
 
