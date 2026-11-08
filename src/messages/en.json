@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "title": "Full-Stack Developer — Next.js, React, TypeScript & AI",
+    "titleTemplate": "%s — {name}",
+    "description": "Evgeny Chupakhin — full-stack developer with 5 years of freelance and 2 years of commercial experience. Web applications, SaaS platforms and AI-powered products built with Next.js, React, TypeScript and Node.js.",
+    "ogAlt": "{name} — Independent Full-Stack Engineer",
+    "keywords": "Evgeny Chupakhin, full-stack developer, Next.js developer, React developer, TypeScript, Node.js, SaaS development, AI integration, freelance web developer, Upwork"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "primaryNav": "Primary",
+    "language": "Language",
+    "switchLanguage": "Switch language to {language}",
+    "currentLanguage": "Current language: {language}",
+    "home": "{name} — home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Site menu",
+    "externalLink": "opens in a new tab",
+    "backToTop": "Back to top",
+    "decorative": "Decorative",
+    "portrait": "Portrait of {name}"
+  },
+  "nav": {
+    "work": "Work",
+    "expertise": "Expertise",
+    "about": "About",
+    "process": "Process",
+    "contact": "Contact",
+    "cta": "Let’s talk",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "intro": {
+    "label": "Loading portfolio"
+  },
+  "hero": {
+    "eyebrow": "Independent Full-Stack Engineer",
+    "lines": [
+      "I build digital",
+      "experiences",
+      "that matter."
+    ],
+    "supporting": "I design and develop high-performance web applications, scalable SaaS platforms and immersive digital experiences.",
+    "primaryCta": "Explore My Work",
+    "secondaryCta": "Let’s Work Together",
+    "scroll": "Scroll",
+    "available": "Available for new projects",
+    "focus": "Next.js · React · TypeScript · Node.js · AI",
+    "index": "Portfolio"
+  },
+  "marquee": [
+    "Web applications",
+    "SaaS platforms",
+    "Interfaces",
+    "APIs & integrations",
+    "Real-time 3D",
+    "Performance"
+  ],
+  "work": {
+    "label": "Selected Work",
+    "title": [
+      "Selected",
+      "work"
+    ],
+    "intro": "Commercial products, client platforms and my own projects — from AI SaaS and real-time gaming to 3D on the web.",
+    "count": "{count, plural, one {# project} other {# projects}}",
+    "view": "View case study",
+    "cursor": "View",
+    "year": "Year",
+    "role": "Role",
+    "stack": "Stack",
+    "status": {
+      "live": "Live",
+      "commercial": "Commercial",
+      "client": "Client project",
+      "mvp": "MVP",
+      "in-development": "In development",
+      "placeholder": "Placeholder"
+    },
+    "placeholderBadge": "Placeholder visual",
+    "moreLabel": "More projects",
+    "moreIntro": "Products I designed and built on my own — SaaS tools, AI services and real-time 3D."
+  },
+  "expertise": {
+    "label": "Expertise",
+    "title": [
+      "What I",
+      "bring"
+    ],
+    "intro": "End-to-end ownership: frontend, backend, databases and deployment. I take products from an idea to a fast, reliable application in production — and care about every layer in between.",
+    "items": [
+      {
+        "title": "Next.js & React",
+        "description": "App Router, Server Components, SSR and careful performance work. Interfaces that load fast, rank well and stay maintainable as the product grows.",
+        "tags": [
+          "Next.js App Router",
+          "React",
+          "Redux Toolkit",
+          "SSR / SEO"
+        ]
+      },
+      {
+        "title": "Full-Stack Web Applications",
+        "description": "Frontend, backend and database designed together — authentication, authorisation and business logic that ship as one coherent product.",
+        "tags": [
+          "Node.js",
+          "Express",
+          "NestJS",
+          "PHP / Laravel"
+        ]
+      },
+      {
+        "title": "SaaS Architecture",
+        "description": "Commercial SaaS products, admin dashboards, database-driven tools, CRUD systems and role-based access control — foundations that scale without a rewrite.",
+        "tags": [
+          "Admin dashboards",
+          "Role-based access",
+          "PostgreSQL",
+          "Prisma"
+        ]
+      },
+      {
+        "title": "TypeScript & Node.js",
+        "description": "Strictly typed code from the database to the UI. Fewer runtime surprises, safer refactoring and a codebase other developers can pick up quickly.",
+        "tags": [
+          "TypeScript",
+          "JavaScript ES6+",
+          "Node.js",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "APIs & Integrations",
+        "description": "REST APIs and third-party services — payments, external platforms and backend integrations — connected reliably and documented.",
+        "tags": [
+          "REST APIs",
+          "Third-party services",
+          "Auth",
+          "Webhooks"
+        ]
+      },
+      {
+        "title": "AI & Automation",
+        "description": "AI-powered web applications and AI API integrations, plus browser automation and testing. I use Claude, Cursor and GitHub Copilot to move faster without lowering the bar.",
+        "tags": [
+          "AI APIs",
+          "Playwright",
+          "Puppeteer",
+          "Claude · Cursor · Copilot"
+        ]
+      },
+      {
+        "title": "High-Performance Interfaces",
+        "description": "Responsive, accessible and smooth on every device. Motion where it adds meaning, measured performance everywhere else.",
+        "tags": [
+          "Tailwind CSS",
+          "SCSS / SASS",
+          "Material UI",
+          "shadcn/ui"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "label": "About",
+    "statement": "I’m Evgeny — a full-stack developer with five years of freelance work and two years of commercial product development. I help businesses turn ambitious ideas into reliable, scalable, high-performance software.",
+    "paragraphs": [
+      "I’ve worked remotely with ContentBuilder.ai, a San Francisco startup building an AI-powered content creation platform, and completed 40 freelance projects on Freelancehunt with a 5.0 client rating.",
+      "My work spans SaaS platforms, admin dashboards and AI integrations, a cryptocurrency exchange built from scratch and real-time gaming platforms — from frontend architecture to backend, databases and deployment."
+    ],
+    "role": "Full-Stack Developer · SaaS & AI",
+    "colorHint": "Hover for colour",
+    "statsLabel": "In numbers",
+    "stats": [
+      {
+        "value": "5",
+        "label": "years of freelance development"
+      },
+      {
+        "value": "2",
+        "label": "years of commercial experience"
+      },
+      {
+        "value": "40",
+        "label": "completed freelance projects"
+      },
+      {
+        "value": "5.0",
+        "suffix": "/5",
+        "label": "client rating on Freelancehunt"
+      }
+    ],
+    "experienceLabel": "Experience",
+    "experience": [
+      {
+        "title": "ContentBuilder.ai",
+        "meta": "AI startup · San Francisco, USA · Remote",
+        "role": "Frontend Developer at Smart Expert",
+        "text": "Developed and maintained React and Next.js interfaces for an AI-powered content creation platform, contributed to the frontend architecture and complex interactive features, and integrated AI functionality and backend APIs with an international team."
+      },
+      {
+        "title": "Freelance",
+        "meta": "Freelancehunt · Upwork",
+        "role": "Full-Stack Developer",
+        "text": "Five years of client work: commercial SaaS applications, admin dashboards, database-driven tools, CRUD systems and role-based access control — built from scratch and maintained in production."
+      },
+      {
+        "title": "Blockchain & finance",
+        "meta": "Cryptocurrency exchange",
+        "role": "Full-stack, from scratch",
+        "text": "Built a cryptocurrency exchange platform from the ground up, including user accounts, balances, transaction management and backend integrations."
+      },
+      {
+        "title": "Gaming & interactive",
+        "meta": "Real-time platforms",
+        "role": "Full-stack",
+        "text": "Interactive gaming platforms with poker, chess, backgammon and checkers, along with sports-related systems and live-streaming integrations."
+      }
+    ],
+    "profilesLabel": "Freelance profiles",
+    "profiles": {
+      "upwork": {
+        "title": "Upwork",
+        "text": "Hire me through Upwork — contracts, milestones and payments handled by the platform.",
+        "cta": "View profile"
+      },
+      "freelancehunt": {
+        "title": "Freelancehunt",
+        "badge": "40 reviews · 10/10",
+        "text": "Client reviews from 40 completed projects.",
+        "cta": "Read reviews"
+      }
+    },
+    "principlesLabel": "Why work with me",
+    "principles": [
+      {
+        "title": "Full-stack ownership",
+        "text": "Frontend, backend, databases and deployment — one person accountable for the whole product."
+      },
+      {
+        "title": "Production-ready code",
+        "text": "Clean, typed and maintainable code that keeps the product moving fast after launch."
+      },
+      {
+        "title": "Broad product experience",
+        "text": "SaaS, AI, blockchain and real-time applications — I’ve seen what breaks and how to prevent it."
+      },
+      {
+        "title": "Reliable communication",
+        "text": "Independent problem-solving, regular updates and honest estimates in plain language."
+      }
+    ]
+  },
+  "process": {
+    "label": "Process",
+    "title": [
+      "How we’ll",
+      "work together"
+    ],
+    "intro": "A transparent, predictable workflow. You always know what’s happening, what’s next and why.",
+    "deliverablesLabel": "You get",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "We clarify goals, users and constraints. I ask the uncomfortable questions early, so there are no surprises later.",
+        "deliverables": [
+          "Scope & priorities",
+          "Technical risks",
+          "Estimate"
+        ]
+      },
+      {
+        "title": "Architect",
+        "description": "Data model, system boundaries and stack choices are designed up front — the decisions that are expensive to change later.",
+        "deliverables": [
+          "Architecture plan",
+          "Data model",
+          "Milestones"
+        ]
+      },
+      {
+        "title": "Build",
+        "description": "Short iterations with working software you can click through. Progress is visible every week, not just at the end.",
+        "deliverables": [
+          "Preview deployments",
+          "Weekly updates",
+          "Clean codebase"
+        ]
+      },
+      {
+        "title": "Refine",
+        "description": "Performance, accessibility, motion and edge cases. This is where a working product becomes a polished one.",
+        "deliverables": [
+          "Performance pass",
+          "Accessibility review",
+          "QA on real devices"
+        ]
+      },
+      {
+        "title": "Deliver",
+        "description": "Production launch, documentation and a smooth handover. I stay available for improvements and long-term support.",
+        "deliverables": [
+          "Production release",
+          "Documentation",
+          "Ongoing support"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "lines": [
+      "Have something",
+      "ambitious in mind?"
+    ],
+    "cta": "Let’s build it.",
+    "intro": "Launching a SaaS, building a complex Next.js application, adding AI to your product — or looking for a reliable developer for the long term? Tell me about it. I usually reply within one business day.",
+    "channels": {
+      "email": "Email",
+      "telegram": "Telegram",
+      "phone": "Phone",
+      "upwork": "Upwork",
+      "freelancehunt": "Freelancehunt",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "instagram": "Instagram"
+    },
+    "channelHints": {
+      "email": "The fastest way to reach me",
+      "telegram": "Quick questions and calls",
+      "phone": "Call me directly",
+      "upwork": "Hire me through Upwork",
+      "freelancehunt": "40 reviews · 10/10",
+      "linkedin": "Professional profile",
+      "github": "Code & open source",
+      "instagram": "Behind the scenes"
+    },
+    "copy": "Copy email address",
+    "copied": "Email copied",
+    "missing": "Not configured — set it in src/config/site.ts",
+    "devNote": "Dev-only notice: contact links without a value are hidden in production.",
+    "alsoLabel": "Also"
+  },
+  "footer": {
+    "tagline": "Full-stack developer building web applications, SaaS platforms and AI-powered products.",
+    "navigation": "Navigation",
+    "connect": "Connect",
+    "language": "Language",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "made": "Designed & engineered independently"
+  },
+  "caseStudy": {
+    "back": "All work",
+    "overview": "Overview",
+    "challenge": "The challenge",
+    "approach": "The approach",
+    "highlights": "Engineering highlights",
+    "outcome": "The result",
+    "gallery": "Gallery",
+    "details": "Details",
+    "visit": "Visit live site",
+    "source": "Source code",
+    "next": "Next project",
+    "status": "Status",
+    "metaTitle": "{title} — Case study",
+    "galleryAlt": "{title} — visual {index}"
+  },
+  "notFound": {
+    "label": "Error 404",
+    "title": "This page doesn’t exist.",
+    "text": "The link may be broken, or the page may have been moved.",
+    "home": "Back to home"
+  }
+}
